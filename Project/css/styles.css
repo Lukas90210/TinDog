@@ -1,0 +1,117 @@
+body {
+  text-align: center;
+}
+/* title */
+#title {
+  background-color: #bb7171;
+  color: #fff;
+  text-align: left;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+/* Nav-bar */
+.navbar-brand {
+  font-size: 2.5rem;
+}
+.nav-item {
+  font-size: 1.2rem;
+  padding: 0 18px;
+  letter-spacing: 1px;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+/* title-h1-button */
+.downloaded {
+  margin: 5% 3% 5% 0;
+}
+.title-image {
+  width: 60%;
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* features */
+p {
+  color: grey;
+  letter-spacing: 1px;
+}
+#features {
+  position: relative;
+}
+.feature-box {
+  padding: 7% 0 5%;
+}
+.feature-h1 {
+  font-size: 1.8rem;
+}
+.white-section {
+  background-color: #fff;
+}
+/* icon */
+.icon {
+  color: #248ea9;
+  margin-bottom: 3%;
+}
+/* slide */
+#slide {
+  background-color: #248ea9;
+  color: #fff;
+}
+.slide-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 3%;
+}
+h2 {
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+/* press */
+#press {
+  background-color: #248ea9;
+  padding-bottom: 3%;
+}
+/* price */
+.price-card {
+  padding: 3% 2%;
+}
+#price {
+  padding:  5%;
+}
+/* hd */
+#hd {
+  background-color: #bb7171;
+  color: #fff;
+  padding-top: 8%;
+}
+.big {
+  font-size: 3rem;
+
+}
+.dw {
+  margin: 5% 3% 3% 0;
+}
+/* footer */
+#foot {
+  padding-top: 6%;
+}
+.social-icon {
+  margin: 20px 10px;
+}
